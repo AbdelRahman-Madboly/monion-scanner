@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Internal app storage -->
+    <files-path name="internal_files" path="." />
+    
+    <!-- App's private directory -->
+    <cache-path name="cache" path="." />
+    
+    <!-- External storage (recordings) -->
+    <external-path name="external_files" path="." />
+    
+    <!-- App-specific external storage -->
+    <external-files-path name="app_external_files" path="." />
+    
+    <!-- Recordings directory -->
+    <external-files-path name="recordings" path="recordings/" />
+    
+    <!-- Downloads directory -->
+    <external-path name="downloads" path="Download/" />
+</paths>

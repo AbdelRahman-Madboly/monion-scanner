@@ -1,0 +1,67 @@
+name: monion_scanner
+description: Bus security and student verification system for NINU University
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Icons
+  cupertino_icons: ^1.0.6
+
+  # Barcode Scanner
+  mobile_scanner: ^5.2.3
+
+  # Database
+  sqflite: ^2.3.3
+  path: ^1.9.0
+
+  # File System & Permissions
+  path_provider: ^2.1.4
+  permission_handler: ^11.3.1
+
+  # State Management
+  provider: ^6.1.2
+
+  # Date & Time
+  intl: ^0.19.0
+
+  # Export
+  pdf: ^3.11.1
+  csv: ^6.0.0
+
+  # Camera (Front Camera)
+  camera: ^0.10.5+5
+  
+  # RTSP Streaming & Video (Preview + Recording)
+  media_kit: ^1.1.10
+  media_kit_video: ^1.2.4
+  media_kit_libs_video: ^1.0.4
+  
+  # Device Info
+  device_info_plus: ^10.1.0
+
+  # Future Use (Commented Out)
+  # chewie: ^1.7.4
+  # video_player: ^2.8.1
+  # audioplayers: ^5.2.1
+  # vibration: ^1.8.4
+  # fl_chart: ^0.68.0
+  # flutter_local_notifications: ^16.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add assets here if needed
+  assets:
+    - assets/images/vinex_logo.png
+    # - assets/sounds/
